@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+    text-align: center;
+    justify-content: center;
+    overflow-x: hidden;
+    background-size : cover;
+  
+
+}
+
+p{
+    color: white;
+    filter: drop-shadow(0 0 2px rgba(255,255,255,0.7)) 
+        drop-shadow(0 0 5px rgba(255,255,255,0.7)) 
+        drop-shadow(0 0 15px rgba(255,255,255,0.7)); 
+    font-size: 100px;
+    font-family: "Nanum Myeongjo", serif;
+    position: relative;
+    top:180px;
+}
+
+button{
+    color: white;
+    background-color: rgba(255, 0, 0, 0);
+    position: relative;
+    top:150px;
+
+    border: none;
+    width: 200px;
+    font-family: "Nanum Myeongjo", serif;
+    font-size: 25px;
+    transition: all 0.2s;
+}
+
+button:hover{
+    color: white;
+    filter: drop-shadow(0 0 2px rgba(255,255,255,0.7)) 
+    drop-shadow(0 0 5px rgba(255,255,255,0.7)) 
+    drop-shadow(0 0 15px rgba(255,255,255,0.7)); 
+}

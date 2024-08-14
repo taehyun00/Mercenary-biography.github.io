@@ -1,0 +1,175 @@
+img {
+    position: relative;
+    width: 1920px;
+    height: 800px;
+    left: -250px;
+    z-index: 10;
+  }
+
+  img.sel1{
+    width: 120px;
+    height: 160px;
+    position: absolute;
+    z-index: 10;
+    
+    top:20px;
+    left: 500px;
+
+    transition: all 0.4s;
+  }
+
+  img.sel2{
+    width: 120px;
+    height: 160px;
+    position: absolute;
+    z-index: 10;
+    top: 400px;
+    left: 200px;
+    transition: all 0.4s;
+  }
+
+  img.sel3{
+    width: 150px;
+    height: 190px;
+    position: absolute;
+    z-index: 10;
+    top:400px;
+    left:800px;
+    transition: all 0.4s;
+  }
+
+  img.sel4{
+    width: 120px;
+    height: 160px;
+    position: absolute;
+    z-index: 10;
+    top:200px;
+    left: 1100px;
+    transition: all 0.4s;
+    
+    
+  }
+
+  body{
+    background-color: black;
+    justify-content: center;
+    overflow: hidden;
+
+    transition: all 0.5s;
+
+}
+img.sel1:hover{
+    filter: drop-shadow(0 0 2px rgba(255,255,255,0.7)) 
+    drop-shadow(0 0 5px rgba(255,255,255,0.7)) 
+    drop-shadow(0 0 15px rgba(255,255,255,0.7)); 
+
+    width: 140px;
+    height: 180px;
+
+  }
+
+  img.sel2:hover{
+    filter: drop-shadow(0 0 2px rgba(255,255,255,0.7)) 
+        drop-shadow(0 0 5px rgba(255,255,255,0.7)) 
+        drop-shadow(0 0 15px rgba(255,255,255,0.7));
+    
+        width: 140px;
+        height: 180px;
+
+  }
+
+  img.sel3:hover{
+    filter: drop-shadow(0 0 2px rgba(255,255,255,0.7)) 
+    drop-shadow(0 0 5px rgba(255,255,255,0.7)) 
+    drop-shadow(0 0 15px rgba(255,255,255,0.7)); 
+
+    width: 170px;
+    height: 21s0px;
+  }
+
+  img.sel4:hover{
+    filter: drop-shadow(0 0 2px rgba(255,255,255,0.7)) 
+        drop-shadow(0 0 5px rgba(255,255,255,0.7)) 
+        drop-shadow(0 0 15px rgba(255,255,255,0.7)); 
+
+        width: 140px;
+        height: 180px;
+
+  }
+
+
+  @keyframes fadein { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.fadein{
+    animation: fadein 1s;
+}
+
+img.talk {
+    width: 1000px;
+    height: 330px;
+    position: fixed;
+    top:470px;
+    left: 250px;
+}
+
+div{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+p{
+    color: white;
+    font-size: 20px;
+    font-family: "Nanum Myeongjo", serif;
+    position: relative;
+    top:-240px;
+    left: 350px;
+    z-index: 10;
+}
+h3{
+    color: white;
+    font-size: 22px;
+    font-family: "Nanum Myeongjo", serif;
+    position: absolute;
+    top:600px;
+    animation: fadein 4s;
+    animation:ani 1s infinite alternate; 
+    
+    z-index: 10;
+}
+
+button{
+    border: none;
+    background-color: rgba(0,0,0,0);
+    color:white;
+
+    font-size: 18px;
+    font-weight: 800;
+    font-family: "Nanum Myeongjo", serif;
+
+    position: relative;
+    top:-220px;
+    left:950px;
+    z-index: 10;
+    transition: all 0.2s;
+}
+
+button:hover{
+    filter: drop-shadow(0 0 2px rgba(255,255,255,0.7)) 
+        drop-shadow(0 0 5px rgba(255,255,255,0.7)) 
+        drop-shadow(0 0 15px rgba(255,255,255,0.7)); 
+
+}
+
+
+@keyframes ani{
+  0%{transform:translate(0,0px);}
+  100%{transform:translate(0,5px);}
+  }

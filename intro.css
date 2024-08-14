@@ -1,0 +1,95 @@
+body{
+    background-color: black;
+    text-align: center;
+    justify-content: center;
+    overflow-x: hidden;
+    overflow-Y: hidden;
+    background-size : cover;
+    transition: all 0.5s;
+
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+
+}
+
+img {
+    width: 1000px;
+    height: 330px;
+    position: relative;
+    top:450px;
+}
+
+img.npc{
+    width: 263px;
+    height: 304px;
+    position: absolute;
+    top:270px;
+    left:350px;
+}
+
+p{
+    color: white;
+    font-size: 20px;
+    font-family: "Nanum Myeongjo", serif;
+    position: relative;
+    top:200px;
+    left: -300px;
+}
+h3{
+    color: white;
+    font-size: 22px;
+    font-family: "Nanum Myeongjo", serif;
+    position: relative;
+    top:200px;
+
+    background-color: rgba(0,0,0,0);
+    border: none;
+    animation: fadein 4s;
+    animation:ani 1s infinite alternate; 
+    
+}
+.fadein{
+    animation: fadein 1s;
+}
+
+
+
+
+@keyframes fadein { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes ani{
+    0%{transform:translate(0,0px);}
+    100%{transform:translate(0,5px);}
+    }  
+
+button{
+    border: none;
+    background-color: rgba(0,0,0,0);
+    color:white;
+
+    font-size: 18px;
+    font-weight: 800;
+    font-family: "Nanum Myeongjo", serif;
+
+    position: relative;
+    top:200px;
+    left:300px;
+
+    transition: all 0.2s;
+}
+
+button:hover{
+    filter: drop-shadow(0 0 2px rgba(255,255,255,0.7)) 
+        drop-shadow(0 0 5px rgba(255,255,255,0.7)) 
+        drop-shadow(0 0 15px rgba(255,255,255,0.7)); 
+
+}

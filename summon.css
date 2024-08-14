@@ -1,0 +1,70 @@
+img {
+    position: relative;
+    width: 1920px;
+    height: 800px;
+    left: -250px;
+    z-index: 10;
+  }
+
+  body{
+    background-color: black;
+    justify-content: center;
+
+
+    transition: all 0.5s;
+
+}
+
+img.char{
+    z-index: 10;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    top: 150px;
+    left: 425px;
+ 
+}
+
+.fadein{
+    animation: fadein 1s;
+}
+
+h3{
+    color: white;
+    font-size: 22px;
+    font-family: "Nanum Myeongjo", serif;
+    position: absolute;
+    top:600px;
+
+    animation: fadein 2s;
+
+    
+    z-index: 10;
+}
+
+
+div{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+@keyframes fadein { 
+    from {
+        filter: brightness(0%);
+        opacity: 0;
+    }
+    to {
+        filter: brightness(100%);
+        opacity: 1;
+    }
+}
+
+img.star{
+    width: 100px;
+    height: 70px;
+    position: absolute;
+    z-index: 10;
+    top: 630px;
+    left: 670px;
+}
