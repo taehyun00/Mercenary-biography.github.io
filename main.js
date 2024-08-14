@@ -1,4 +1,4 @@
-let flag1=0;
+var flag=0;
 
 function change(){
     if(flag == 0){
