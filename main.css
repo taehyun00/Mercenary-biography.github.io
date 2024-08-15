@@ -50,6 +50,18 @@ img {
     
   }
 
+  img.sel5{
+    width: 358px;
+    height: 78px;
+    position: absolute;
+    z-index: 10;
+    top:20px;
+    left: 1080px;
+    transition: all 0.4s;
+    
+    
+  }
+
   body{
     background-color: black;
     justify-content: center;
@@ -143,6 +155,51 @@ h3{
     animation:ani 1s infinite alternate; 
     
     z-index: 10;
+}
+
+h3.gold{
+  color: white;
+  font-size: 22px;
+  font-weight: 200;
+  font-family: "Nanum Myeongjo", serif;
+  position: absolute;
+  top:25px;
+  left: 1150px;
+  animation: fadein 1s;
+
+  
+  z-index: 10;
+}
+
+h3.gold_1{
+  color: white;
+  font-size: 22px;
+  font-weight: 200;
+  font-family: "Nanum Myeongjo", serif;
+  position: absolute;
+  top:25px;
+  left: 1350px;
+  animation: fadein 1s;
+
+  
+  z-index: 10;
+}
+
+input{
+  color: white;
+  font-size: 22px;
+  font-weight: 200;
+  font-family: "Nanum Myeongjo", serif;
+  position: absolute;
+  top:45px;
+  left: 1260px;
+  animation: fadein 1s;
+
+
+  background-color: rgba(0, 0, 255, 0);
+  border: none;
+  
+  z-index: 10;
 }
 
 button{

@@ -1,4 +1,13 @@
 var flag=0;
+var loadednum = sessionStorage.getItem("num");
+
+var lcount = sessionStorage.getItem("count");
+
+document.getElementById('gold').value = loadednum;
+
+if(lcount == "zero"){
+    document.getElementById("sec").style.display ='none';
+}
 
 function change(){
     if(flag == 0){
@@ -18,8 +27,20 @@ function change(){
         content.textContent = '그럼 앞으로의 여정에 축복을 빌지';
     }
     if(flag == 4){
-        document.getElementById("sec").style.display ='none';		
+        document.getElementById("sec").style.display ='none';
+        var count = "zero";
+        sessionStorage.setItem("count", count);	
     }
     flag++;
 }
+    function go(){
+        document.getElementById('gold').value = num2;
+        sessionStorage.setItem("snum",num2);
+    }
 
+    function get(){
+        var num_ = document.getElementById('gold').value;
+        num_ = Number(num_) + 20;
+        document.getElementById('gold').value = num_;
+        sessionStorage.setItem("snum",num_);
+    }

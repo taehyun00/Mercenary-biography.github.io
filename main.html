@@ -9,11 +9,14 @@
 <body class="fadein">
     <img src="back-ground.svg">
     
-    <img src="battle.svg" class="sel1">
+    <img src="battle.svg" class="sel1" onclick="get()">
     <img src="train.svg" class="sel2">
     <img src="dajang.svg" class="sel3">
-    <img src="jujum.svg" class="sel4" onclick="location.href='jujum.html'";>
-
+    <img src="jujum.svg" class="sel4" onclick="location.href='jujum.html', go()";>
+    <img src="goldbar.svg" class="sel5">
+    <h3 class="gold">소지금</h3>
+    <input type="number" value="0" id="gold" readonly>
+    <h3 class="gold_1">G</h3>
     
     <section id="sec">
     <img src="talk2.svg" class="talk">

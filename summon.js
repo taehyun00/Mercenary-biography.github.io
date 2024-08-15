@@ -1,3 +1,8 @@
+var myName = "KDH";
+sessionStorage.setItem("myName", myName);
+var loadednum = sessionStorage.getItem("snum");
+
+
 const num = Math.floor(Math.random() * 10);
 
 if(num<3){
@@ -20,3 +25,6 @@ if(num>5 && num<10){
     $img = document.querySelector(".img-container > img");
     $img.src = `ch3.svg`;
 }
+
+var num1 = Number(loadednum)- 20;
+sessionStorage.setItem("snum", num1);

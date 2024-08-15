@@ -9,7 +9,7 @@ img {
   body{
     background-color: black;
     justify-content: center;
-
+    overflow: hidden;
 
     transition: all 0.5s;
 
@@ -67,4 +67,27 @@ img.star{
     z-index: 10;
     top: 630px;
     left: 670px;
+}
+
+button{
+    border: none;
+    background-color: rgba(0,0,0,0);
+    color:white;
+
+    font-size: 18px;
+    font-weight: 800;
+    font-family: "Nanum Myeongjo", serif;
+
+    position: absolute;
+    top:700px;
+    left:670px;
+    z-index: 10;
+    transition: all 0.2s;
+}
+
+button:hover{
+    filter: drop-shadow(0 0 2px rgba(255,255,255,0.7)) 
+        drop-shadow(0 0 5px rgba(255,255,255,0.7)) 
+        drop-shadow(0 0 15px rgba(255,255,255,0.7)); 
+
 }

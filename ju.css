@@ -76,7 +76,7 @@ img.sel1{
     font-size: 20px;
     font-family: "Nanum Myeongjo", serif;
     position: relative;
-    top:-240px;
+    top:-220px;
     left: 350px;
     z-index: 10;
 }
@@ -122,7 +122,91 @@ button:hover{
 }
 
 
+
+
+    button.back{
+      border: none;
+      background-color: rgba(0,0,0,0);
+      color:white;
+  
+      font-size: 18px;
+      font-weight: 800;
+      font-family: "Nanum Myeongjo", serif;
+  
+      position: absolute;
+      top:700px;
+      left:670px;
+      z-index: 10;
+      transition: all 0.2s;
+  }
+  
+  button.back:hover{
+      filter: drop-shadow(0 0 2px rgba(255,255,255,0.7)) 
+          drop-shadow(0 0 5px rgba(255,255,255,0.7)) 
+          drop-shadow(0 0 15px rgba(255,255,255,0.7)); 
+  
+  }
+
+  
+  
+
+  img.sel5{
+    width: 358px;
+    height: 78px;
+    position: absolute;
+    z-index: 10;
+    top:20px;
+    left: 1080px;
+    transition: all 0.4s;
+    
+    
+  }
+
+  h3.gold{
+    color: white;
+    font-size: 22px;
+    font-weight: 200;
+    font-family: "Nanum Myeongjo", serif;
+    position: absolute;
+    top:25px;
+    left: 1150px;
+    animation: fadein 1s;
+  
+    
+    z-index: 10;
+  }
+  
+  h3.gold_1{
+    color: white;
+    font-size: 22px;
+    font-weight: 200;
+    font-family: "Nanum Myeongjo", serif;
+    position: absolute;
+    top:25px;
+    left: 1350px;
+    animation: fadein 1s;
+  
+    
+    z-index: 10;
+  }
+  
+  input{
+    color: white;
+    font-size: 22px;
+    font-weight: 200;
+    font-family: "Nanum Myeongjo", serif;
+    position: absolute;
+    top:45px;
+    left: 1260px;
+    animation: fadein 1s;
+  
+  
+    background-color: rgba(0, 0, 255, 0);
+    border: none;
+    
+    z-index:10;
+}
 @keyframes ani{
-    0%{transform:translate(0,0px);}
-    100%{transform:translate(0,5px);}
-    }
+  0%{transform:translate(0,0px);}
+  100%{transform:translate(0,5px);}
+  }
